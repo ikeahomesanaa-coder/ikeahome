@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إيكا هوم | للمفروشات والأثاث</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--navy:#0b1830;--gold:#c9a45c;--cream:#f7f4ee;--text:#182235}
+body{font-family:Tahoma,Arial,sans-serif;background:var(--cream);color:var(--text);line-height:1.7}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(11,24,48,.96);color:white;border-bottom:1px solid rgba(201,164,92,.35)}
+.nav{max-width:1150px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:25px;font-weight:800;color:white;display:flex;align-items:center;gap:8px}
+.logo .roof{font-size:28px;color:var(--gold)}
+.logo span{color:var(--gold)}
+nav{display:flex;gap:25px;font-size:15px}
+nav a:hover{color:var(--gold)}
+.hero{min-height:78vh;background:linear-gradient(120deg,rgba(11,24,48,.96),rgba(11,24,48,.72)),url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85') center/cover;display:flex;align-items:center;color:white}
+.hero-inner{max-width:1150px;width:100%;margin:auto;padding:80px 22px}
+.badge{display:inline-block;border:1px solid rgba(201,164,92,.65);color:var(--gold);padding:6px 15px;border-radius:30px;margin-bottom:18px;font-size:14px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.15;margin-bottom:18px}
+h1 span{color:var(--gold)}
+.hero p{max-width:620px;color:#e8e8e8;font-size:19px;margin-bottom:30px}
+.btn{display:inline-block;background:var(--gold);color:var(--navy);padding:13px 28px;border-radius:8px;font-weight:bold;margin-left:8px}
+.btn.alt{background:transparent;border:1px solid rgba(255,255,255,.5);color:white}
+section{max-width:1150px;margin:auto;padding:75px 22px}
+.title{text-align:center;margin-bottom:42px}
+.title small{color:var(--gold);font-weight:bold}
+.title h2{font-size:34px;margin-top:5px;color:var(--navy)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:white;border-radius:16px;overflow:hidden;box-shadow:0 8px 30px rgba(11,24,48,.08)}
+.card-img{height:230px;background-size:cover;background-position:center}
+.card:nth-child(1) .card-img{background-image:url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80')}
+.card:nth-child(2) .card-img{background-image:url('https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=900&q=80')}
+.card:nth-child(3) .card-img{background-image:url('https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=900&q=80')}
+.card-body{padding:20px}
+.card h3{color:var(--navy);margin-bottom:5px}
+.card p{color:#687080;font-size:14px}
+.about{background:var(--navy);color:white;max-width:none}
+.about-inner{max-width:1150px;margin:auto;padding:75px 22px;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about h2{font-size:38px;margin-bottom:15px}.about p{color:#d9deea}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.feature{border:1px solid rgba(201,164,92,.3);padding:22px;border-radius:12px}
+.feature b{color:var(--gold);display:block;margin-bottom:5px}
+.contact{text-align:center}
+.contact-box{background:white;padding:35px;border-radius:18px;box-shadow:0 8px 30px rgba(11,24,48,.08)}
+footer{background:#071226;color:#bfc7d6;text-align:center;padding:25px}
+footer strong{color:var(--gold)}
+@media(max-width:750px){
+nav{display:none}.grid{grid-template-columns:1fr}.about-inner{grid-template-columns:1fr}.hero{min-height:70vh}.hero p{font-size:16px}.features{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="logo" href="#"><span class="roof">⌂</span> إيكا <span>هوم</span></a>
+    <nav>
+      <a href="#home">الرئيسية</a><a href="#collections">مجموعاتنا</a><a href="#about">عن إيكا هوم</a><a href="#contact">تواصل معنا</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="badge">أناقة تُصنع لتدوم</div>
+    <h1>بيت أجمل يبدأ<br>من <span>إيكا هوم</span></h1>
+    <p>مفروشات وأثاث بتصاميم عصرية ولمسة فاخرة، نختارها بعناية لتمنح منزلك الراحة والجمال في كل زاوية.</p>
+    <a class="btn" href="#collections">اكتشف مجموعاتنا</a>
+    <a class="btn alt" href="#contact">تواصل معنا</a>
+  </div>
+</section>
+
+<section id="collections">
+  <div class="title"><small>اختياراتنا</small><h2>مجموعات تناسب ذوقك</h2></div>
+  <div class="grid">
+    <article class="card"><div class="card-img"></div><div class="card-body"><h3>غرف المعيشة</h3><p>أناقة وراحة بتفاصيل تمنح مجلسك حضورًا مميزًا.</p></div></article>
+    <article class="card"><div class="card-img"></div><div class="card-body"><h3>غرف النوم</h3><p>هدوء وفخامة لتصنع مساحة مريحة تعكس ذوقك.</p></div></article>
+    <article class="card"><div class="card-img"></div><div class="card-body"><h3>الإكسسوارات المنزلية</h3><p>لمسات بسيطة تكمل جمال الأثاث وتمنح المكان شخصية.</p></div></article>
+  </div>
+</section>
+
+<div class="about" id="about">
+  <div class="about-inner">
+    <div><h2>لماذا إيكا هوم؟</h2><p>نؤمن أن الأثاث ليس مجرد قطع في المنزل، بل هو جزء من أسلوب حياتك. لذلك نجمع بين التصميم الجميل، الراحة، والخامات المختارة بعناية.</p></div>
+    <div class="features">
+      <div class="feature"><b>01 · جودة</b>اختيارات بعناية لتدوم معك.</div>
+      <div class="feature"><b>02 · أناقة</b>تصاميم عصرية بلمسة فاخرة.</div>
+      <div class="feature"><b>03 · تنوع</b>خيارات متعددة لكل مساحة.</div>
+      <div class="feature"><b>04 · ثقة</b>خدمة تهتم بتفاصيل تجربتك.</div>
+    </div>
+  </div>
+</div>
+
+<section class="contact" id="contact">
+  <div class="title"><small>نحن هنا لخدمتك</small><h2>تواصل مع إيكا هوم</h2></div>
+  <div class="contact-box">
+    <p>للاستفسار عن الأثاث والمفروشات والطلبات، تواصل معنا عبر قنوات المتجر.</p>
+    <br><a class="btn" href="#">واتساب</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 <strong>إيكا هوم</strong> — للمفروشات والأثاث</footer>
+</body>
+</html>
